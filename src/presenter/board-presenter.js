@@ -19,8 +19,8 @@ export default class BoardPresenter {
     render(new NewPointAddView(), this.listItemContainerView.getElement());
     for (let i = 0; i < 3; i++) {
       render(new SingleEventView(), this.listItemContainerView.getElement());
-      render(new PointEditView(), this.listItemContainerView.getElement());
     }
+    render(new PointEditView(), this.listItemContainerView.getElement());
 
   };
 }
