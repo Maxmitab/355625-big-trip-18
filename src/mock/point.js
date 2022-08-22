@@ -16,7 +16,7 @@ const generatePointType = (arr) => {
   return arr[randomIndex];
 };
 
-const generatePoint = () => ({
+export const generatePoint = () => ({
   type: generatePointType(pointTypes),
   destination: generatePointDestination(dest),
   dateFrom: null,
