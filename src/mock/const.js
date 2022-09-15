@@ -14,4 +14,6 @@ const offerTitles = ['Add luggage', 'Switch to comfort', 'Add meal', 'Choose sea
 
 const pointTypes = ['taxi', 'bus', 'train', 'ship', 'drive', 'flight', 'check-in', 'sightseeing', 'restaurant'];
 
-export {dest, pointTypes, offerTitles};
+const photo = ['img/photos/1.jpg','img/photos/2.jpg','img/photos/3.jpg','img/photos/4.jpg','img/photos/5.jpg'];
+
+export {dest, pointTypes, offerTitles, photo};
